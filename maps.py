@@ -1,0 +1,11 @@
+MAP = { 
+  'c': 'h', 
+  'cc': 'h', 
+  'cpp': ('h', 'hpp'),
+  'h': ('c', 'cpp', 'cc'),
+  'hpp': 'cpp',
+  'cxx': 'hxx',
+  'hxx': 'cxx',
+  'asm': 'inc', 
+  'inc': 'asm', 
+  }
